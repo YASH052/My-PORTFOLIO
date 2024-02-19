@@ -1,20 +1,22 @@
 .home-container {
   height: 300px;
   color: white;
-}
-.home-content h1 {
-  padding: 5px;
-  padding-top: 80px;
-  margin-left: 150px;
+  padding-left: 150px;
 }
 .home-content h2 {
+  padding: 5px;
+  padding-top: 70px;
+  /* margin-left: 150px; */
+}
+.home-content h1 {
   color: #e0b50f;
   font-size: medium;
   padding: 5px;
-  margin-left: 150px;
+  /* margin-left: 150px; */
 }
 .home-button {
-  margin-left: 140px;
+  /* margin-left: 150px; */
+  margin-top: 20px;
 }
 .home-button .btn-hire {
   background-color: aqua;
@@ -30,7 +32,7 @@
 .home-button .btn-resume {
   background-color: aqua;
   color: rgb(79, 40, 196);
-  width: 160px;
+  width: 120px;
   margin-left: 15px;
 }
 .home-button .btn-resume:hover {
