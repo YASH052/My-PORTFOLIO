@@ -1,0 +1,41 @@
+.home-container {
+  height: 300px;
+  color: white;
+}
+.home-content h1 {
+  padding: 5px;
+  padding-top: 80px;
+  margin-left: 150px;
+}
+.home-content h2 {
+  color: #e0b50f;
+  font-size: medium;
+  padding: 5px;
+  margin-left: 150px;
+}
+.home-button {
+  margin-left: 140px;
+}
+.home-button .btn-hire {
+  background-color: aqua;
+  color: rgb(79, 40, 196);
+  width: 160px;
+}
+.home-button .btn-hire:hover {
+  background-color: rgb(79, 40, 196);
+  color: aqua;
+  width: 200px;
+  transition: 1s;
+}
+.home-button .btn-resume {
+  background-color: aqua;
+  color: rgb(79, 40, 196);
+  width: 160px;
+  margin-left: 15px;
+}
+.home-button .btn-resume:hover {
+  background-color: rgb(79, 40, 196);
+  color: aqua;
+  opacity: 50%;
+  transition: 1s;
+}
