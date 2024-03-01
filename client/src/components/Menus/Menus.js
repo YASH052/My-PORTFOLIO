@@ -1,6 +1,7 @@
 import React from 'react'
 import './Menus.css'
 import { FcHome, FcAbout, FcGraduationCap, FcManager, FcAutomatic, FcContacts, FcApproval } from "react-icons/fc";
+import { Link } from 'react-scroll';
 
 const Menus = ({ toggle }) => {
     return (
@@ -11,10 +12,14 @@ const Menus = ({ toggle }) => {
                         alt="Profile pic"
                     />
                 </div>
+
                     <div className="nav-items">
                         <div className="nav-item">
                             <div className="nav-link">
-                                <FcHome />Home</div>
+                                <Link to="home">
+                                    <FcHome />Home
+                                </Link>
+                            </div>
                         </div>
                         <div className="nav-item">
                             <div className="nav-link">
