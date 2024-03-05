@@ -6,7 +6,20 @@ const Projects = () => {
             <div className="projects">
                 <h2 className='col-12 mt-3 mb-1 text-center'>Top Projects</h2>
                 <hr />
-                <p className='pb-3 text-center'>👉Here is my top three projects with source code Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam natus vero beatae earum illo rerum ea deserunt! Accusantium cupiditate veniam reprehenderit, et blanditiis corporis asperiores aliquam inventore, quisquam, earum pariatur? </p>
+                <p className='pb-3 text-center'>👉Here is my top three projects with source code:
+                    <p></p>
+                    <p>Restaurant Backend System (MERN Stack):</p>
+                    We have developed a comprehensive backend system for a restaurant management application using the MERN stack.
+                    Implemented user authentication, restaurant and menu management, order processing, and reporting functionalities.
+                    Utilized MongoDB for data storage, Express.js for server-side logic, React.js for the frontend interface, and Node.js for backend development.
+                    Incorporated features such as user authentication, CRUD operations on restaurant data, menu item management, and order tracking.
+                    <p></p>
+                    <p>An E-commerce Application (MERN Stack):</p>
+                    Led the development of an e-commerce platform from concept to deployment using the MERN stack.
+                    Designed and implemented a user-friendly frontend interface using React.js with Redux for state management.
+                    We have developed a robust backend system with Express.js and Node.js, handling user authentication, product management, cart functionality, and order processing.
+                    Integrated payment gateways for secure and seamless transactions, ensuring a smooth shopping experience for users.
+                    Utilized MongoDB Atlas for cloud-based database storage and management, ensuring scalability and reliability.</p>
                 <div className="row" id='ads'>
                     <div className="col-md-4">
                         <div className="card rounded">
@@ -72,7 +85,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
         </>
     )

@@ -10,7 +10,14 @@ const About = () => {
                     </div>
                     <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
                         <h1>About Me!</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab consectetur ratione eius explicabo. Ipsum, ex expedita, enim iusto accusantium debitis soluta minus laborum reprehenderit corrupti ipsam officia? A, repudiandae laudantium?</p>
+                        <p>I am passionate and dedicated with a strong foundation in C++, MERN stack development, and SQL. I bring fresh perspectives and a hunger for learning to every project I undertake.
+
+                            Skills:
+                            C++: Proficient in object-oriented programming, data structures, and algorithms.
+
+                            MERN Stack: Skilled in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Capable of handling both frontend and backend development tasks.
+
+                            SQL: Proficient in designing and querying relational databases using SQL. </p>
                     </div>
                 </div>
 

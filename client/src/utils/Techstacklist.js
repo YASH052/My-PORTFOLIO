@@ -1,25 +1,24 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
 import {
     SiJavascript,
     SiMui,
     SiReact,
-    SiTailwindcss,
     SiFigma,
     SiAdobexd,
     SiAdobephotoshop,
     SiMongodb,
     SiMysql,
-    SiTypescript,
     SiGithub,
-    SiWordpress,
-    SiFirebase,
+    SiNotion,
+    SiVercel,
+    SiWindows11,
+    SiPostman,
     SiDocker,
     SiExpress,
-    SiNginx,
-    SiAngular,
+    SiMongoose,
 } from "react-icons/si";
+import { TbBrandCpp } from "react-icons/tb";
 export const TechStacklist = [
     {
         _id: 1,
@@ -43,13 +42,13 @@ export const TechStacklist = [
     },
     {
         _id: 5,
-        name: "TypeScript",
-        icon: SiTypescript,
+        name: "C++",
+        icon: TbBrandCpp,
     },
     {
         _id: 6,
-        name: "Angular",
-        icon: SiAngular,
+        name: "MongoDb",
+        icon: SiMongoose,
     },
     {
         _id: 7,
@@ -58,8 +57,8 @@ export const TechStacklist = [
     },
     {
         _id: 8,
-        name: "Nextjs",
-        icon: TbBrandNextjs,
+        name: "Vercel",
+        icon: SiVercel,
     },
     {
         _id: 9,
@@ -68,9 +67,10 @@ export const TechStacklist = [
     },
     {
         _id: 10,
-        name: "Tailwind ",
-        icon: SiTailwindcss,
+        name: "Window",
+        icon: SiWindows11,
     },
+
     {
         _id: 11,
         name: "Figma ",
@@ -102,9 +102,9 @@ export const TechStacklist = [
         icon: SiExpress,
     },
     {
-        _id: 17,
-        name: "Wordpress ",
-        icon: SiWordpress,
+        _id: 20,
+        name: "Notion",
+        icon: SiNotion,
     },
     {
         _id: 18,
@@ -118,9 +118,10 @@ export const TechStacklist = [
     },
     {
         _id: 20,
-        name: "Firebase ",
-        icon: SiFirebase,
+        name: "Postman",
+        icon: SiPostman,
     },
+
     {
         _id: 21,
         name: "Git / Github ",
@@ -131,9 +132,6 @@ export const TechStacklist = [
         name: "Docker ",
         icon: SiDocker,
     },
-    {
-        _id: 23,
-        name: "Nginx ",
-        icon: SiNginx,
-    },
+
+
 ];

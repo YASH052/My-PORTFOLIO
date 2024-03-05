@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 import "./contact.css";
 import { Rotate } from 'react-reveal';
-import LightSpeed from "react-reveal/LightSpeed";
+import { LightSpeed } from 'react-reveal';
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 const Contact = () => {
     const [name, setname] = useState("");

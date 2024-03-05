@@ -7,11 +7,10 @@ const Menus = ({ toggle }) => {
     return (
         <>
             {toggle ? (
-                <><div className="navbar-profile-pic">
-                    <img src="/photo.jpg"
-                        alt="Profile pic"
-                    />
-                </div>
+                <div>
+                    <div className="navbar-profile-pic">
+                        <img src="/photo.jpg" alt="Profile pic" />
+                    </div>
 
                     <div className="nav-items">
                         <div className="nav-item">
@@ -23,65 +22,89 @@ const Menus = ({ toggle }) => {
                         </div>
                         <div className="nav-item">
                             <div className="nav-link">
-                                <FcAbout />About</div>
+                                <Link to="about">
+                                    <FcAbout />About
+                                </Link>
+                            </div>
                         </div>
                         <div className="nav-item">
                             <div className="nav-link">
-                                < FcManager />Work Experience</div>
+                                <Link to="workexperience">
+                                    <FcManager />Work Experience
+                                </Link>
+                            </div>
                         </div>
                         <div className="nav-item">
                             <div className="nav-link">
-                                <FcAutomatic />Tech Stack</div>
+                                <Link to="techstack">
+                                    <FcAutomatic />Tech Stack
+                                </Link>
+                            </div>
                         </div>
                         <div className="nav-item">
                             <div className="nav-link">
-                                <FcGraduationCap />Education</div>
+                                <Link to="projects">
+                                    <FcApproval />Projects
+                                </Link>
+                            </div>
                         </div>
                         <div className="nav-item">
                             <div className="nav-link">
-                                <FcApproval />Projects</div>
+                                <Link to="education">
+                                    <FcGraduationCap />Education
+                                </Link>
+                            </div>
                         </div>
                         <div className="nav-item">
                             <div className="nav-link">
-                                <FcContacts />Contact</div>
+                                <Link to="contact">
+                                    <FcContacts />Contact
+                                </Link>
+                            </div>
                         </div>
                     </div>
-                </>
+                </div>
             ) : (
-                <><div className="nav-items">
+                <div className="nav-items">
                     <div className="nav-item">
                         <div className="nav-link">
-                            <FcHome title='Home' /></div>
+                            <FcHome title='Home' />
+                        </div>
                     </div>
                     <div className="nav-item">
                         <div className="nav-link">
-                            <FcAbout title='About' /></div>
+                            <FcAbout title='About' />
+                        </div>
                     </div>
                     <div className="nav-item">
                         <div className="nav-link">
-                            < FcManager title='Work Experience' /></div>
+                            <FcManager title='Work Experience' />
+                        </div>
                     </div>
                     <div className="nav-item">
                         <div className="nav-link">
-                            <FcAutomatic title='Tech Stack' /></div>
+                            <FcAutomatic title='Tech Stack' />
+                        </div>
                     </div>
                     <div className="nav-item">
                         <div className="nav-link">
-                            <FcGraduationCap title='Education' /></div>
+                            <FcGraduationCap title='Education' />
+                        </div>
                     </div>
                     <div className="nav-item">
                         <div className="nav-link">
-                            <FcApproval title='Projects' /></div>
+                            <FcApproval title='Projects' />
+                        </div>
                     </div>
                     <div className="nav-item">
                         <div className="nav-link">
-                            <FcContacts title='Contact' /></div>
+                            <FcContacts title='Contact' />
+                        </div>
                     </div>
-                </div></>
-            )
-            }
+                </div>
+            )}
         </>
     );
 }
 
-export default Menus
+export default Menus;
